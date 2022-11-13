@@ -28,7 +28,7 @@ namespace LabbPolymorphism
                 Console.WriteLine($"{shape.Name} Area: {shape.Area()}\n{shape.Name} Omkrets: {shape.Circumference()}");
                 Console.WriteLine();
             }
-            Console.WriteLine("Vill du testa att räkna ut omkrets eller area med dina egna värden?");
+            Console.WriteLine("Vill du testa att räkna ut omkrets och area med dina egna värden?");
             if (Console.ReadLine().ToLower() == "ja")
             {
                 Console.Clear();
