@@ -45,7 +45,7 @@ namespace LabbPolymorphism
                 {
                     error = false;
                     Console.Clear();
-                    Console.WriteLine("Hej! Vilken form vill du räkna ut omkrets eller area på? \nDu kan välja mellan Cirkel, Fyrkant eller Rektangel");
+                    Console.WriteLine("Hej! Vilken form vill du räkna ut omkrets och area på? \nDu kan välja mellan Cirkel, Fyrkant eller Rektangel");
                     switch (Console.ReadLine().ToLower())
                     {
                         case "cirkel":
