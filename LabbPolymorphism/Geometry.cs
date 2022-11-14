@@ -51,8 +51,6 @@ namespace LabbPolymorphism
                         case "cirkel":
                             Console.WriteLine("Skriv in radien på din cirkel");
                             g = new Circle(Double.Parse(Console.ReadLine()));
-                            Console.WriteLine($"Area: {g.Area()}\nOmkrets: {g.Circumference()}");
-                            Console.ReadKey(true);
                             break;
                         case "fyrkant":
                             Console.WriteLine("Skriv in längden på sidan av din fyrkant");
@@ -73,6 +71,7 @@ namespace LabbPolymorphism
                             error = true;
                             break;
                     }
+                    Console.ReadKey(true);
                 } while (error != true);
 
             }
